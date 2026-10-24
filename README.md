@@ -62,10 +62,4 @@ The public workflow file is sanitized: it contains placeholders in place of the 
 
 The workflow uses a structured output parser to make the model response easier to map into sheet columns. The Google Sheets node is configured to match rows by job link so a repeated listing can update an existing row. Verify these behaviors with test data in your own n8n version before relying on them.
 
-## Privacy and safe use
 
-Job details and generated cover letters are written to the Google Sheet you connect. Use a sheet you control, and do not commit private feed URLs, spreadsheet IDs, credentials, application notes, or unredacted execution data. Treat AI-generated content as a draft and remove unsupported claims before use.
-
-## Project status
-
-This repository contains a sanitized workflow prototype. It has not been verified in another n8n instance. The exported workflow is inactive; configure and test it in your own environment before describing it as production-ready.
